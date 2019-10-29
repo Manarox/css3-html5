@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
 font-family: 'fonta27c5975a1a88dcd17c7c606902044d9';
     
     src:    url('https://nomail.com.ua/files/eot/a27c5975a1a88dcd17c7c606902044d9.eot?#iefix') format('embedded-opentype'),
@@ -241,4 +241,157 @@ filter: blur(2px);
 }
 .buy4 {
     right: 0px;
+}
+
+.zag1 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sum {
+    text-align: center;
+    background: white;
+    padding: 18px 0px 18px 0px;
+    border-left: 2px solid #445162;
+    border-right: 2px solid #445162;
+    
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sum-menu-list {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 0px;
+    
+}
+
+.sum-menu {
+    padding-left: 35px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+
+/* Блок #7 */
+
+.contacts {
+    background-color: #445162;
+    display: flex;
+}
+.contacts-margin {
+    margin: 0 auto;
+    display: flex;
+}
+.contacts-name, .contacts-email, .contacts-mess {
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 21px;
+    padding-left: 10px;
+    border: 0px;
+    
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'ArialMT', sans-serif;
+}
+input[type="email"]:invalid {
+    background: white;
+}
+input[type="email"]:valid {
+    background: #21ff40;
+}
+.contacts-mess {
+    width: 500px;
+    height: 170px;
+    padding-top: 8px;
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 10px 50px 10px 50px;
+    font-family: 'ArialMT', sans-serif;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;    
+}
+input[type="submit"]:hover {
+    background-color: #e1e4e6;
+}
+.social-menu {
+    list-style: none;
+}
+.social_1, .social_2, .social_3, .social_4 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.contacts-forma {
+    padding-right: 40px;
+    text-align: center;
+}
+.social_1 {
+    background: url(img/skype_icon.png) 0px 0px no-repeat;
+    padding-left: 32px;
+}
+.social_2 {
+    background: url(img/icq_icon.png) 0px 0px no-repeat;
+    padding-left: 32px;
+}
+.social_3 {
+    background: url(img/email_icon.png) 0px 0px no-repeat;
+    padding-left: 32px;
+}
+.social_4 {
+    background: url(img/phone_icon.png) 0px 0px no-repeat;
+    padding-left: 32px;   
+}
+.icons a {
+    font-family: "Socialico";
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+}
+.icons a:hover {
+    color: #e1e4e6;
+}
+.icons {
+    margin-top: 30px;
+    margin-left: -2px;
+}
+
+/* Блок #8 */
+.footer1 p {
+    font-family: "ArialMT";
+    color: #445162;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 0px;
+}
+.footer1 {
+    background-color: rgb(245, 245, 245);
+    text-align: center;
 }
