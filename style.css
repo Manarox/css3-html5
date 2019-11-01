@@ -178,18 +178,21 @@ filter: blur(2px);
     float: left;
     border-radius: 50%;
 }
+.reviews-row:nth-child(odd) {
+    padding-right: 10px;
+}
 
 .reviews-otz {
-    background: url(img/bg_review.png) 15px 0px no-repeat;
-    overflow: hidden;
+    background: #ebebeb;
     min-height: 125px;
+    float: right;
 }
 .reviews-otz p {
     color: #333333;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    padding-left: 45px;
+    padding-left: 29px;
     padding-top: 15px;
     padding-right: 29px;
     padding-bottom: 12px;
@@ -204,82 +207,109 @@ filter: blur(2px);
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    padding-left: 45px;
+    padding-left: 29px;
     padding-top: 15px;
 }
 
 .reviews-cart {
     padding-bottom: 20px;
+    display: flex;
 }
+
+.reviews-ava {
+    float: left;
+    padding-right: 10px;
+}
+
 .pds2 {
     padding-bottom: 30px;
 }
 
-
 /* Блок #6 */
-.buy h2 {
-    text-align: center;
+.buyItNow {
+  padding: 50px;
 }
-.buy-all {
-    display: flex;
-    position: relative;
-    min-height: 455px;
+.buyItNow:after {
+  content: '';
+  clear: both;
+  display: block;
 }
-.buy3 {
-    margin: 0 auto;
-    background-color: #445162;
-    border-radius: 5px;
-    min-width: 300px;
-    position: absolute;
-    bottom: 0px;
+.buyItNow .buyItNowHeader {
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
 }
-.buy1 {
-    left: 0px;
+.buyItNow .buyUnits {
+  width: 990px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
-.buy2 {
-    left: 37%;
+.buyItNow .buyUnits .buyUnit {
+  width: 298px;
+  background: #445161;
+  border-radius: 4px;
+  border: 2px solid #445161;
 }
-.buy4 {
-    right: 0px;
+.buyItNow .buyUnits .buyUnit h2 {
+  padding: 17px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+}
+.buyItNow .buyUnits .buyUnit .buyUnitPrice {
+  text-align: center;
+  padding: 18px;
+  color: #445161;
+  background: #ffffff;
+  font-size: 40px;
+  line-height: 30px;
+}
+.buyItNow .buyUnits .buyUnit .buyUnitText {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 20px;
+}
+.buyItNow .buyUnits .buyUnit .buyBtn {
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 14px;
+  background-color: #ffffff;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  display: block;
+  margin: 20px;
+  text-decoration: none;
+}
+.buyUnit a {
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 14px;
+  background-color: #ffffff;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  display: block;
+  margin: 20px;
+  text-decoration: none;
+}
+.buyUnit a:hover {
+  background-color: #e1e4e6;
 }
 
-.zag1 {
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.sum {
-    text-align: center;
-    background: white;
-    padding: 18px 0px 18px 0px;
-    border-left: 2px solid #445162;
-    border-right: 2px solid #445162;
-    
-    color: #445162;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.sum-menu-list {
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    padding-bottom: 0px;
-    
-}
-
-.sum-menu {
-    padding-left: 35px;
-    padding-top: 25px;
-    padding-bottom: 15px;
-}
 
 
 /* Блок #7 */
