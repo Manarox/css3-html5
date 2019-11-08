@@ -3,132 +3,255 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="clearfix">
-   <div class="container clearfix">
-       <header>
-       <div class="name padding-site clearfix">
-           <div class="name-text">
-               <h1>Product name</h1>
-               <ul class="name-menu">
-                   <li class="menu-li1">Put on this page information about your product</li>
-                   <li class="menu-li1">A detailed description of your product</li>
-                   <li class="menu-li1">Tell us about the advantages and merits</li>
-                   <li class="menu-li1">Associate the page with the payment system</li>
-               </ul>
+<body>
+   <section class="video">
+       <video class="responsive" src="video/back.webm" muted autoplay loop></video>
+       <div class="row onVideo">
+           <div class="col-md-12 wrap">
+               <h3>Responsive</h3>
            </div>
-           <div class="white"></div>
        </div>
-       </header>
-       <main>
-       <section class="about padding-site clearfix">
-           <div class="about-product">
-               <h2>About your product</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
-               <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-           </div>
-           <div class="about-img"></div>
-       </section>
-       
-       <section class="dignity padding-site clearfix">
-           <h2>About your product</h2>
-           <ul class="dignity-menu clearfix">
-               <li class="dignity-li">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-               <li class="dignity-li">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-               <li class="dignity-li">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-           </ul>
-           <ul class="dignity-menu2 clearfix">
-               <li class="dignity-li">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-               <li class="dignity-li">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-               <li class="dignity-li">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-           </ul>
-       </section>
-       
-       <section class="scrinshots padding-site clearfix">
-           <h2>Scrinshots</h2>
-           <div class="scrinshots-all clearfix">
-               <div class="scrinshots1">
-                   <div class="scrinshots-block">
-                       <article>
-                       <img src="img/image.jpg" alt="image">
-                       <header><h3>The description for the image</h3></header>
-                       <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-                       </article>
+   </section>
+   <div class="container">
+
+       <header class="header2">
+           <div class="row">
+                   <div class="col-md-6">
+                       <h1>Product name</h1>
+                       <ul class="name-menu">
+                           <li class="menu-li1">Put on this page information about your product</li>
+                           <li class="menu-li1">A detailed description of your product</li>
+                           <li class="menu-li1">Tell us about the advantages and merits</li>
+                           <li class="menu-li1">Associate the page with the payment system</li>
+                       </ul>
                    </div>
-                   <div class="scrinshots-block">
-                       <article>
-                       <img src="img/image.jpg" alt="image">
-                       <header><h3>The description for the image</h3></header>
-                       <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-                       </article>
+                   <div class="col-md-6">
+                       <img class="headerImg" src="img/11.jpg" alt="Фото 1">
+                   </div>
+           </div>
+       </header>
+
+       <main>
+       <section class="about">
+           <div class="row">
+              <div class="col-md-6">
+                  <h2 class="about-h2">About your product</h2>
+                  <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
+                  <p class="about-p">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+              </div>
+           <div class="col-md-6">
+                  <video class="video-2" src="video/video2.mp4" controls poster="img/poster_for_video.jpg"></video>
+           </div>
+           </div>
+       </section>
+       
+       <section class="dignity">
+           <h2>About your product</h2>
+           <div class="row spisok">
+               <div class="col-md-6">
+                   <div class="plusik">
+                       Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                       Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                       quaerat porro totam, dolore
+                       minus inventore.
                    </div>
                </div>
-               <div class="scrinshots2">
-                   <div class="scrinshots-block">
+               <div class="col-md-6">
+                   <div class="plusik">
+                       Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                       Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                       quaerat porro totam, dolore
+                       minus inventore.
+                   </div>
+               </div>
+               <div class="col-md-6">
+                   <div class="plusik">
+                       Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                       Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                       quaerat porro totam, dolore
+                       minus inventore.
+                   </div>
+               </div>           
+               <div class="col-md-6">
+                   <div class="plusik">
+                       Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                       Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                       quaerat porro totam, dolore
+                       minus inventore.
+                   </div>
+               </div>           
+                <div class="col-md-6">
+                   <div class="plusik">
+                       Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                       Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                       quaerat porro totam, dolore
+                       minus inventore.
+                   </div>
+               </div>          
+               <div class="col-md-6">
+                   <div class="plusik">
+                       Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                       Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                       quaerat porro totam, dolore
+                       minus inventore.
+                   </div>
+               </div>
+           
+           </div>
+       </section>
+       
+       <section class="scrinshots">
+           <h2>Scrinshots</h2>
+           <div class="row">
+                   <div class="col-md-6 scrinshots-block">
                        <article>
                        <img src="img/image.jpg" alt="image">
                        <header><h3>The description for the image</h3></header>
-                       <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+                           <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa
+                           vel exercitationem ullam
+                           quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi
+                           itaque, unde perferendis nemo
+                           debitis dolor.</p>
                        </article>
                    </div>
-                   <div class="scrinshots-block">
+                   <div class="col-md-6 scrinshots-block">
                        <article>
                        <img src="img/image.jpg" alt="image">
                        <header><h3>The description for the image</h3></header>
-                       <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+                           <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa
+                           vel exercitationem ullam
+                           quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi
+                           itaque, unde perferendis nemo
+                           debitis dolor.</p>
                        </article>
                    </div>
-               </div> 
+                   <div class="col-md-6 scrinshots-block">
+                       <article>
+                       <img src="img/image.jpg" alt="image">
+                       <header><h3>The description for the image</h3></header>
+                           <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa
+                           vel exercitationem ullam
+                           quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi
+                           itaque, unde perferendis nemo
+                           debitis dolor.</p>
+                       </article>
+                   </div>
+                   <div class="col-md-6 scrinshots-block">
+                       <article>
+                       <img src="img/image.jpg" alt="image">
+                       <header><h3>The description for the image</h3></header>
+                           <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa
+                           vel exercitationem ullam
+                           quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi
+                           itaque, unde perferendis nemo
+                           debitis dolor.</p>
+                       </article>
+                   </div>
             </div>
         </section>
         
-        <section class="reviews padding-site pds2 clearfix">
-            <h2>Reviews</h2>
-            <div class="reviews-all">
-                <div class="reviews-row">
-                   <div class="reviews-cart">
-                        <div class="reviews-ava">
-                            <img src="img/userpic.jpg" alt="User1">
+        <section class="reviews">
+                <h2 class="reviewsHeader">Reviews</h2>
+                <div class="row">
+                    <div class="col-md-6 reviewUnitWrap">
+                        <div class="reviewUnit">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="reviewImg" src="https://placeimg.com/90/90/nature" alt="">
+                                </div>
+                                <div class="col-md-9 reviewWrap">
+                                    <div class="review">
+                                        <div>
+                                            Porro officia cumque sint deleniti nemo facere rem vitae odit
+                                            inventore cum odio, iste quia
+                                            doloribus autem aperiam nulla ea neque reprehenderit. Libero
+                                            doloribus, possimus officiis sapiente
+                                            necessitatibus commodi consectetur?
+                                        </div>
+                                        <div class="reviewAuthor">
+                                            Lourens S.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="reviews-otz">
-                            <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehen&shy;derit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                            <span>Lourens S.</span>
+                    </div>
+                    <div class="col-md-6 reviewUnitWrap">
+                        <div class="reviewUnit">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="reviewImg" src="https://placeimg.com/90/90/nature" alt="">
+                                </div>
+                                <div class="col-md-9 reviewWrap">
+                                    <div class="review">
+                                        <div>
+                                            Porro officia cumque sint deleniti nemo facere rem vitae odit
+                                            inventore cum odio, iste quia
+                                            doloribus autem aperiam nulla ea neque reprehenderit. Libero
+                                            doloribus, possimus officiis sapiente
+                                            necessitatibus commodi consectetur?
+                                        </div>
+                                        <div class="reviewAuthor">
+                                            Lourens S.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                   </div>
-                   <div class="reviews-cart">
-                        <div class="reviews-ava">
-                            <img src="img/userpic.jpg" alt="User2">
+                    </div>
+                    <div class="col-md-6 reviewUnitWrap">
+                        <div class="reviewUnit">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="reviewImg" src="https://placeimg.com/90/90/nature" alt="">
+                                </div>
+                                <div class="col-md-9 reviewWrap">
+                                    <div class="review">
+                                        <div>
+                                            Porro officia cumque sint deleniti nemo facere rem vitae odit
+                                            inventore cum odio, iste quia
+                                            doloribus autem aperiam nulla ea neque reprehenderit. Libero
+                                            doloribus, possimus officiis sapiente
+                                            necessitatibus commodi consectetur?
+                                        </div>
+                                        <div class="reviewAuthor">
+                                            Lourens S.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="reviews-otz">
-                            <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehen&shy;derit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                            <span>Lourens S.</span>
+                    </div>
+                    <div class="col-md-6 reviewUnitWrap">
+                        <div class="reviewUnit">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="reviewImg" src="https://placeimg.com/90/90/nature" alt="">
+                                </div>
+                                <div class="col-md-9 reviewWrap">
+                                    <div class="review">
+                                        <div>
+                                            Porro officia cumque sint deleniti nemo facere rem vitae odit
+                                            inventore cum odio, iste quia
+                                            doloribus autem aperiam nulla ea neque reprehenderit. Libero
+                                            doloribus, possimus officiis sapiente
+                                            necessitatibus commodi consectetur?
+                                        </div>
+                                        <div class="reviewAuthor">
+                                            Lourens S.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                   </div>
+                    </div>
                 </div>
-                
-                <div class="reviews-row">
-                   <div class="reviews-cart">
-                        <div class="reviews-ava">
-                            <img src="img/userpic.jpg" alt="User3">
-                        </div>
-                        <div class="reviews-otz">
-                            <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehen&shy;derit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                            <span>Lourens S.</span>
-                        </div>
-                   </div>
-                   <div class="reviews-cart">
-                        <div class="reviews-ava">
-                            <img src="img/userpic.jpg" alt="User4">
-                        </div>
-                        <div class="reviews-otz">
-                            <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehen&shy;derit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                            <span>Lourens S.</span>
-                        </div>
-                   </div>
-                </div>
-            </div>
-        </section>
+            </section>
+            
         
         <section class="buyItNow">
                     <h2 class="buyItNowHeader">Buy it now</h2>
@@ -181,24 +304,19 @@
                     </div>
        </section>
         
-        <section class="contacts padding-site clearfix">
-           <div class="contacts-margin">
-                <div class="contacts-forma">
+        <section class="contacts">
+           <h2 class="buyItNowHeader cont-h2">Contacts</h2>
+           <div class="row contacts-margin">
+                <div class="col-md-offset-1 col-md-6 contacts-forma">
                     <form action="#">
-                       <div class="rows">
-                           <input id="name" class="contacts-name" type="text" placeholder="Your name:">
-                       </div>
-                       <div class="rows">
-                           <input class="contacts-email" type="email" placeholder="Your email:" required>
-                       </div>
-                       <div class="rows">   
-                           <textarea class="contacts-mess" placeholder="Your message:"></textarea>
-                       </div>
-                       <div class="rows">
-                        <input type="submit" value="Send">
-                       </div>
+                       <input list="names" id="name" class="contacts-name" type="text" placeholder="Your name:" pattern="^([А-Яа-я]+)$">
+                       <input class="contacts-email" type="email" placeholder="Your email:" required pattern="^([A-Za-z0-9\.-]+)(@)([A-Za-z0-9\.-]+)(\.)([A-Za-z0-9\.-]{2,})$">
+                       <input class="contacts-date" name="date" id="date" type="date">
+                       <div><input name="color" id="color" type="color"></div>
+                       <textarea class="contacts-mess" placeholder="Your message:"></textarea>
+                       <input type="submit" value="Send">
                     </form>
-                    <datalist id="browsers">
+                    <datalist id="names">
                         <option value="Дмитрий">
                         <option value="Сергей">
                         <option value="Александр">
@@ -208,7 +326,7 @@
                     </datalist>
                 </div>
 
-                <div class="contacts-info clearfix">
+                <div class="col-md-6 contacts-info clearfix">
                    <div class="social">
                        <ul class="social-menu">
                            <li class="social_1">here_your_login_skype</li>
@@ -232,7 +350,8 @@
         <footer class="footer1">
             <p>Copyright &copy; 2014 Product name · PSD HTML CSS</p>
         </footer>
-
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
    </div>
 </body>
 </html>
