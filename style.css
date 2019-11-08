@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Prosto+One|Russo+One');
+
+@font-face {
+font-family: 'fonta27c5975a1a88dcd17c7c606902044d9';
+    
+    src:    url('https://nomail.com.ua/files/eot/a27c5975a1a88dcd17c7c606902044d9.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/a27c5975a1a88dcd17c7c606902044d9.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/a27c5975a1a88dcd17c7c606902044d9.woff2') format('woff2');
+}
+
+@font-face { font-family: 'ArialMT';  src: local('ArialMT'), url('https://nomail.com.ua/files/woff/a27c5975a1a88dcd17c7c606902044d9.woff') format('woff'); }
+
+#arialmt { font-family:'ArialMT'; }
+.fonta27c5975a1a88dcd17c7c606902044d9 { font-family: 'fonta27c5975a1a88dcd17c7c606902044d9'; }
+
+@font-face {
+     font-family: "Socialico";
+     src: url("font/Socialico.eot?") format("eot"), url("font/Socialico.woff") format("woff"), url("font/Socialico.ttf") format("truetype"), url("font/Socialico.svg#Socialico") format("svg");
+     font-weight: normal;
+     font-style: normal;
+}
+
+body {
+    font-family: 'ArialMT', sans-serif;
+}
+html,
+body {
+    min-height: 100%;
+}
+h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 30px;
+}
+h3 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+p,
+li {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+/* Видео */
+.onVideo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap {
+    width: 60%;
+}
+.wrap h3 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #00f3ff;
+    text-shadow: 0 0 5px #0400ff;
+    line-height: 50px;
+}
+@media (max-width: 479px) {
+    .wrap h3 {
+    font-size: 35px;
+}
+}
+@media (max-width: 300px) {
+    .wrap h3 {
+    font-size: 25px;
+}
+}
+
+.responsive {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+
+
+/* Блок #1 */
+.header2 {
+    background-color: #445162;
+    padding: 50px;
+}
+@media (max-width: 767px) and (min-width: 0px) {
+.header2 {
+    padding: 15px;
+}
+}
+.headerImg {
+    width: 100%;
+}
+
+.header2 h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 0;
+}
+@media (max-width: 479px){
+.header2 h1 {
+    font-size: 46px;
+}
+}
+@media all and (min-width: 0px) and (max-width: 767px) {
+  .container {
+    padding: 0;
+  }
+}
+.name-menu li {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-left: 6px;
+    padding-bottom: 0px;
+}
+.name-menu {
+    list-style-image: url(img/check_icon.png);
+    padding-left: 31px;
+}
+
+.name-text {
+    float: left;
+}
+
+/* Блок #2 */
+.video-2 {
+    width: 100%;
+}
+.about-product {
+    float: left;
+}
+.about {
+    padding: 50px;
+}
+.about-img {
+    width: 100%;
+}
+@media (max-width: 767px) and (min-width: 0){
+.about {
+    padding: 15px;
+}
+.about-h2, .about-p {
+    padding-bottom: 10px;  
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+}
+
+/* Блок #3 */
+.dignity {
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+@media (max-width: 479px) {
+.dignity {
+    padding: 15px;
+}
+}
+.dignity h2 {
+    text-align: center;
+}
+@media (max-width: 767px) and (min-width: 0) {
+    .dignity h2 {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 479px) {
+.dignity h2 {
+    padding-bottom: 0px;
+}
+}
+
+.spisok {
+    color: #445161;
+    font-size: 16px;
+    line-height: 24px;
+}
+.plusik {
+    background: url(img/2-layers.jpg) no-repeat left 5px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+@media (max-width: 479px) {
+.dignity .spisok .plusik {
+    background-position: center bottom;
+    padding-bottom: 40px;
+    padding-left: 0;
+    text-align: left;
+}
+}
+@media (max-width: 479px) {
+.dignity .spisok div[class^="col-"]:last-child .plusik {
+    background: none;
+    padding-bottom: 0;
+}
+}
+
+@media (min-width: 992px) {
+.dignity .spisok  div[class^="col-"]:not( :nth-child(-n+2)) {
+    margin-top: 15px;
+}
+}
+@media (max-width: 991px) and (min-width: 0) {
+.dignity .spisok div[class^="col-"]:not(:first-child) {
+    margin-top: 15px;
+}
+}
+
+
+
+
+/* Блок #4 */
+.scrinshots {
+    padding: 50px;
+}
+@media (max-width: 767px) and (min-width: 0) {
+    .scrinshots {
+        padding: 15px;
+    }
+}
+.scrinshots-block img {
+    float: left;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+@media (max-width: 479px) {
+.scrinshots-block img {
+    float: none;
+    padding-top: 15px;
+    display: block;
+    margin: 0 auto;
+}
+}
+.scrinshots-block img:hover {
+filter: blur(2px);
+}
+.scrinshots1, .scrinshots2 {
+    margin: 0 auto;
+}
+.scrinshots1 {
+    padding-right: 13px;
+}
+.scrinshots h2 {
+    text-align: center;
+}
+@media (max-width: 479px) {
+.scrinshots h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+}
+@media (max-width: 991px) and (min-width: 0) {
+.scrinshots [class^="col"]:not(:first-child) {
+    margin-top: 15px;
+}
+}
+@media (max-width: 768px) and (min-width: 751px) {
+.scrinshots-block p {
+    margin-bottom: 44px;
+}
+}
+@media (max-width: 631px) {
+.scrinshots-block p {
+    padding-bottom: 0px;
+}
+}
+
+
+@media (max-width: 769px) and (min-width: 631px) {
+.scrinshots-block p {
+    margin-bottom: 0px;
+}
+}
+
+/* Блок #5 */
+
+.reviews {
+  padding: 50px;
+  background: #f5f5f5;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .reviews {
+    padding: 15px;
+  }
+}
+.reviews:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.reviews .reviewsHeader {
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0 0 30px;
+  text-align: center;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .reviewsHeader {
+    padding-bottom: 0px;
+  }
+}
+
+@media all and (min-width: 0) and (max-width: 991px) {
+  .reviews .reviewUnitWrap:not(:first-child) {
+    margin-top: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .reviews .reviewUnitWrap:nth-child(n+3) {
+    margin-top: 15px;
+  }
+}
+.reviews .reviewUnit:after {
+  clear: both;
+  display: block;
+  content: '';
+}
+.reviews .reviewUnit .reviewImg {
+  border-radius: 50%;
+  float: right;
+}
+@media all and (min-width: 0) and (max-width: 991px) {
+  .reviews .reviewUnit .reviewImg {
+    display: block;
+    float: none;
+    margin: 0 auto 15px auto;
+  }
+}
+.reviews .reviewUnit .reviewWrap:after {
+  clear: both;
+  display: block;
+  content: '';
+}
+@media all and (min-width: 0) and (max-width: 991px) {
+  .reviews .reviewUnit .reviewWrap {
+    margin-top: 30px;
+  }
+}
+.reviews .reviewUnit .reviewWrap .review {
+  position: relative;
+  color: #445161;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 18px;
+  float: right;
+  background: #ebebeb;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.reviews .reviewUnit .reviewWrap .review::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -10px;
+  top: 27px;
+  background: #ebebeb;
+  transform: rotate(45deg);
+}
+@media all and (min-width: 0) and (max-width: 991px) {
+  .reviews .reviewUnit .reviewWrap .review::before {
+    top: -10px;
+    left: calc(50% - 10px);
+  }
+}
+.reviews .reviewUnit .reviewWrap .review .reviewAuthor {
+  color: #989898;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* Блок #6 */
+.buyItNow {
+  padding: 50px;
+}
+@media (max-width: 767px){
+.buyItNow {
+    padding: 15px;
+}
+}
+.buyItNow:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.buyItNow .buyItNowHeader {
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+.buyItNow .buyUnits {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 992px){
+.buyItNow .buyUnits {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+}
+@media (max-width: 992px){
+.buyItNow .buyUnits .buyUnit:not(:last-child) {
+    margin-bottom: 15px;
+}
+}
+@media (max-width: 992px){
+.buyItNowHeader {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+}
+@media (min-width: 992px){
+.buyItNow .buyUnits .buyUnit:not(:last-child) {
+    margin-right: 15px;
+}
+}
+.buyItNow .buyUnits .buyUnit {
+  background: #445161;
+  border-radius: 4px;
+  border: 2px solid #445161;
+}
+.buyItNow .buyUnits .buyUnit h2 {
+  padding: 17px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+}
+.buyItNow .buyUnits .buyUnit .buyUnitPrice {
+  text-align: center;
+  padding: 18px;
+  color: #445161;
+  background: #ffffff;
+  font-size: 40px;
+  line-height: 30px;
+}
+.buyItNow .buyUnits .buyUnit .buyUnitText {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 20px;
+}
+.buyItNow .buyUnits .buyUnit .buyBtn {
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 14px;
+  background-color: #ffffff;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  display: block;
+  margin: 20px;
+  text-decoration: none;
+}
+.buyUnit a {
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 14px;
+  background-color: #ffffff;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  display: block;
+  margin: 20px;
+  text-decoration: none;
+}
+.buyUnit a:hover {
+  background-color: #e1e4e6;
+}
+
+
+
+/* Блок #7 */
+@media (min-width: 992px) and (max-width: 992px) {
+.col-md-6 {
+    width: 45%;
+}
+}
+.cont-h2 {
+    color: white;
+    text-align: center;
+}
+.contacts {
+    background-color: #445162;
+    padding: 50px;
+}
+
+@media (max-width: 767px){
+    .contacts {
+    padding: 15px;
+    }
+}
+    
+.contacts-margin {
+    display: flex;
+}
+@media (max-width: 992px){
+.contacts-margin {
+    display: block;
+}
+}
+.contacts-name, .contacts-email, .contacts-mess, .contacts-date {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 21px;
+    padding-left: 10px;
+    border: 0px;
+    
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'ArialMT', sans-serif;
+}
+input[type="email"]:invalid {
+    background: white;
+}
+input[type="email"]:valid {
+    background: #21ff40;
+}
+.contacts-mess {
+    min-height: 170px;
+    padding-top: 8px;
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 10px 50px 10px 50px;
+    font-family: 'ArialMT', sans-serif;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;    
+}
+.contacts-forma div {
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 21px;
+    line-height: 24px;
+    padding: 10px;
+    background-color: white; 
+}
+input[type="submit"]:hover {
+    background-color: #e1e4e6;
+}
+.social-menu {
+    list-style: none;
+    padding-left: 0px;
+}
+.social_1, .social_2, .social_3, .social_4 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.contacts-forma {
+    text-align: center;
+}
+@media (max-width: 991px){
+    .contacts-forma {
+    padding-bottom: 15px;
+    }
+}
+.social_1 {
+    background: url(img/skype_icon.png) 0px 0px no-repeat;
+    padding-left: 32px;
+}
+.social_2 {
+    background: url(img/icq_icon.png) 0px 0px no-repeat;
+    padding-left: 32px;
+}
+.social_3 {
+    background: url(img/email_icon.png) 0px 0px no-repeat;
+    padding-left: 32px;
+}
+.social_4 {
+    background: url(img/phone_icon.png) 0px 0px no-repeat;
+    padding-left: 32px;   
+}
+.icons a {
+    font-family: "Socialico";
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+}
+.icons a:hover {
+    color: #e1e4e6;
+}
+.icons {
+    margin-top: 30px;
+    margin-left: -2px;
+}
+
+/* Блок #8 */
+.footer1 p {
+    font-family: "ArialMT";
+    color: #445162;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 0px;
+}
+.footer1 {
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
