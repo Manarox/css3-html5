@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
 font-family: 'fontc9f309b3d47969ecac64a77a6c672594';
     
     src:    url('https://nomail.com.ua/files/eot/c9f309b3d47969ecac64a77a6c672594.eot?#iefix') format('embedded-opentype'),
@@ -65,22 +65,22 @@ h3 {
 
 @media (min-width: 1200px){
     .size {
-        width: 1200px;
+        width: 1170px;
     }
 }
 @media (min-width: 768px){
     .size2 {
-        width: 1000px;
+        width: 750px;
     }
 }
 @media (min-width: 992px){
     .size2 {
-        width: 1220px;
+        width: 970px;
     }
 }
 @media (min-width: 1450px){
     .size2 {
-        width: 1450px;
+        width: 1420px;
     }
 }
 .size {
