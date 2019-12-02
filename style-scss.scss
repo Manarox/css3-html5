@@ -1,3 +1,5 @@
+$color1: #81b300;
+$color-Bord: #333333;
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -33,7 +35,7 @@ p {
 }
 
 .b-container__head-line {
-    background-color: #81b300;
+    background-color: $color1;
     height:5px;
 }
 .b-container__line {
@@ -41,7 +43,7 @@ p {
     font-family: 'Georgia Regular';
 }
 .b-container__menu {
-    background-color: #81b300;
+    background-color: $color1;
 }
 .b-container__slider {
     background-color: #f2f2f2;
@@ -56,7 +58,7 @@ p {
 /*Разметка b-head*/
 
 .b-logo__logo {
-    color: #333333;
+    color: $color-Bord;
     font-weight: 400;
     font-size: 46px;
 }
@@ -67,7 +69,7 @@ p {
 }
 .b-fav__ul {
     display: inline-block;
-    background-color: #81b300;
+    background-color: $color1;
     padding-left: 0px;
     padding: 10px;
     border-bottom-left-radius: 15px;
@@ -116,12 +118,12 @@ p {
 }
 .b-menu-header__li:not(:last-child):after {
     content: "|";
-    color: #81b300;
+    color: $color1;
     padding-left: 10px;
     margin-right: 10px;
 }
 .b-href2 {
-    color: #81b300;
+    color: $color1;
 }
 @media (max-width: 768px){
     .b-menu-header__ul {
@@ -164,7 +166,7 @@ p {
 .b-menu-nav_control {
     margin-right: -1px;
     border-radius: 0px;
-    border: 1px solid #81b300;
+    border: 1px solid $color1;
     height: 42px;
     outline: 0;
     outline-offset: 0;
@@ -174,7 +176,6 @@ p {
     box-shadow: none!important;
     outline: 0;
     outline-offset: 0;
-    box-shadow: none;
 }
 .b-menu-nav_but-search {
     border-radius: 0px;
@@ -182,24 +183,11 @@ p {
     height: 42px;
 }
 
-
-
-
 @media (max-width: 576px){
     .form-control {
         width: 68%
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 /*Разметка slider*/
 .b-slider-image {
@@ -238,22 +226,22 @@ p {
     height: 12px;
     width: 12px;
     margin: -3px 2px;
-    background-color: #333333;
+    background-color: $color-Bord;
     border-radius: 50%;
     display: inline-block;
 }
 .b-punkt__dots_active {
     background-color: white;
-    border: 2px solid #333;
+    border: 2px solid $color-Bord;
 }
 .b-punkt__dots:hover {
     background-color: white;
-    border: 2px solid #333;
+    border: 2px solid $color-Bord;
 }
 .b-punkt__prev,
 .b-punkt__next {
     text-align: center;
-    background-color: #333333;
+    background-color: $color-Bord;
     width: 26px;
     height: 26px;
     border-radius: 50%;
@@ -285,7 +273,7 @@ p {
     padding-right: 30px;
 }
 .b-icons__zag {
-    color: #81b300;
+    color: $color1;
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 20px;
@@ -319,7 +307,7 @@ p {
 }
 .b-icons__zag_right {
     text-align: right;
-    color: #81b300;
+    color: $color1;
     font-size: 13px;
     font-weight: 400;
 }
@@ -388,7 +376,7 @@ p {
     border: 0;
     height: 31px;
     padding-left: 10px;
-    color: #81b300;
+    color: $color1;
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;

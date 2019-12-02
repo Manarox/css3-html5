@@ -1,0 +1,376 @@
+@charset "UTF-8";
+p {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+@font-face {
+  font-family: 'Georgia Regular';
+  src: url("Georgia.eot");
+  src: url("Georgia.eot?#iefix") format("embedded-opentype"), url("Georgia.woff") format("woff"), url("Georgia.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*
+@media (min-width: 768px){
+    .b-container__line {
+        width: 750px;
+    }
+}
+@media (min-width: 992px){
+    .b-container__line {
+        width: 960px;
+    }
+}
+*/
+/*Разметка основных блоков страницы*/
+.b-container {
+  width: 100%;
+  font-family: 'Georgia Regular', sans-serif;
+  font-size: 13px; }
+
+.b-container__head-line {
+  background-color: #81b300;
+  height: 5px; }
+
+.b-container__line {
+  margin: 0 auto;
+  font-family: 'Georgia Regular'; }
+
+.b-container__menu {
+  background-color: #81b300; }
+
+.b-container__slider {
+  background-color: #f2f2f2; }
+
+.b-container__footer1 {
+  background-color: #3b3b3b; }
+
+.b-container__footer2 {
+  background-color: #2e2e2e; }
+
+/*Разметка b-head*/
+.b-logo__logo {
+  color: #333333;
+  font-weight: 400;
+  font-size: 46px; }
+
+.b-logo__p {
+  color: #999999;
+  font-size: 12px;
+  font-weight: 400; }
+
+.b-fav__ul {
+  display: inline-block;
+  background-color: #81b300;
+  padding-left: 0px;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  float: right; }
+
+.b-fav__li {
+  float: left;
+  list-style-type: none; }
+
+.b-fav__li:not(:last-child) {
+  padding-right: 25px; }
+
+.fa {
+  color: white;
+  padding-left: 2px; }
+
+.b-href {
+  text-align: center;
+  background-color: #1f1f1f;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle; }
+
+.b-href_active {
+  background-color: #00acee; }
+
+.b-href:hover {
+  background-color: #00acee; }
+
+.b-menu-header,
+.b-fav {
+  text-align: center;
+  width: 100%; }
+
+.b-menu-header__ul {
+  float: right;
+  padding: 0px;
+  display: inline-block; }
+
+.b-menu-header__li {
+  float: left;
+  list-style-type: none; }
+
+.b-menu-header__li:not(:last-child):after {
+  content: "|";
+  color: #81b300;
+  padding-left: 10px;
+  margin-right: 10px; }
+
+.b-href2 {
+  color: #81b300; }
+
+@media (max-width: 768px) {
+  .b-menu-header__ul {
+    float: none; }
+
+  .b-fav__ul {
+    float: none;
+    margin-top: 30px; }
+
+  .b-head__logo {
+    text-align: center; } }
+/*Разметка menu*/
+.b-menu {
+  padding-bottom: 20px;
+  padding-top: 20px; }
+
+.b-menu-spisok__href {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  text-transform: uppercase;
+  padding: 0px; }
+
+.b-menu_stil {
+  padding: 0px; }
+
+.navbar {
+  padding: 0px !important; }
+
+.b-menu-spisok__list:not(:last-child) {
+  padding-right: 15px; }
+
+.b-menu-spisok__href:hover {
+  text-decoration: none; }
+
+.b-menu-nav_control {
+  margin-right: -1px;
+  border-radius: 0px;
+  border: 1px solid #81b300;
+  height: 42px;
+  outline: 0;
+  outline-offset: 0;
+  box-shadow: none; }
+
+.form-control {
+  box-shadow: none !important;
+  outline: 0;
+  outline-offset: 0; }
+
+.b-menu-nav_but-search {
+  border-radius: 0px;
+  background: white;
+  height: 42px; }
+
+@media (max-width: 576px) {
+  .form-control {
+    width: 68%; } }
+/*Разметка slider*/
+.b-slider-image {
+  padding-bottom: 30px; }
+
+.b-slider {
+  padding: 30px; }
+
+.b-slider-image__img {
+  border: 10px solid white;
+  width: 100%; }
+
+.b-punkt {
+  text-align: center; }
+
+.b-punkt-spisok {
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+
+.b-punkt-list {
+  list-style-type: none;
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: #00acee; }
+
+.b-punkt-list:not(:last-child) {
+  margin-right: 5px; }
+
+.b-punkt-list::after {
+  content: ' '; }
+
+.b-punkt__dots {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: -3px 2px;
+  background-color: #333333;
+  border-radius: 50%;
+  display: inline-block; }
+
+.b-punkt__dots_active {
+  background-color: white;
+  border: 2px solid #333333; }
+
+.b-punkt__dots:hover {
+  background-color: white;
+  border: 2px solid #333333; }
+
+.b-punkt__prev,
+.b-punkt__next {
+  text-align: center;
+  background-color: #333333;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.b-punkt__prev:hover {
+  background-color: #5e5e5e; }
+
+.b-punkt__next:hover {
+  background-color: #5e5e5e; }
+
+.fa-angle-left {
+  padding-right: 3px; }
+
+.fa-angle-right {
+  padding-left: 3px; }
+
+/*Разметка b-icons*/
+.b-icons__block {
+  text-align: center; }
+
+.b-icons {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.b-icons__zag {
+  color: #81b300;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: 0px; }
+
+.b-icons__text {
+  color: #888888;
+  font-size: 13px;
+  font-weight: 400; }
+
+/*Разметка b-icons #2*/
+.b-icons_border {
+  border-top: 1px solid #e2e2e2; }
+
+.b-icons__img_border {
+  border: 3px solid white;
+  outline: 1px solid #e2e2e2;
+  width: 100%; }
+
+.b-icons__zag_left {
+  color: #444444;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left; }
+
+.b-icons__text_left {
+  text-align: left;
+  color: #878787;
+  padding-bottom: 5px; }
+
+.b-icons__zag_right {
+  text-align: right;
+  color: #81b300;
+  font-size: 13px;
+  font-weight: 400; }
+
+/*Разметка b-icons Footer #1*/
+.b-icons__zag_footer {
+  color: #666666;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left; }
+
+.b-icons__text_footer {
+  color: #999999;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left; }
+
+.b-icons__text_footer2 {
+  padding-top: 20px;
+  color: #999999;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left; }
+
+.b-foter-spisok__list {
+  list-style-type: none;
+  border-bottom: 1px solid #484848;
+  color: #999999;
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  margin-bottom: 10px; }
+
+.b-foter-spisok_href {
+  color: #999999;
+  font-size: 12px;
+  font-weight: 400; }
+
+.b-foter-spisok {
+  padding: 0;
+  text-align: left; }
+
+.b-icons__text_big {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600; }
+
+.b-forma {
+  text-align: left; }
+
+.b-forma__input {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #1f1f1f;
+  border-radius: 6px;
+  border: 0;
+  height: 31px;
+  padding-left: 10px; }
+
+.b-forma_button-footer {
+  margin-bottom: 10px;
+  background-color: #1f1f1f;
+  border-radius: 6px;
+  border: 0;
+  height: 31px;
+  padding-left: 10px;
+  color: #81b300;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-right: 8px; }
+
+.b-footer2 {
+  color: #737373;
+  font-size: 12px;
+  font-weight: 400; }
+
+.b-icons_padding {
+  padding-bottom: 25px;
+  padding-top: 25px; }
+
+/*# sourceMappingURL=style-scss.css.map */
