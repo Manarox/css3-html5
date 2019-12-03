@@ -1,58 +1,58 @@
 [
     {
       "id": 1,
-      "title": "Notebook",
+      "title": "Ноутбук Asus VivoBook X543MA-GQ469",
       "price": 1000,
-      "img": "https://placehold.it/200x150"
+      "img": "http://madelephants.ru/3.jpg"
 
     },
     {
         "id": 2,
-        "title": "Display",
+        "title": "Ноутбук HP 15-rb048ur (7NC11EA)",
         "price": 200,
-        "img": "https://placehold.it/200x150"
+        "img": "http://madelephants.ru/4.jpg"
   
       },
       {
         "id": 3,
-        "title": "Keyboard",
+        "title": "Ноутбук Asus VivoBook X540UB-DM616",
         "price": 20,
-        "img": "https://placehold.it/200x150"
+        "img": "http://madelephants.ru/6.jpg"
   
       },
       {
         "id": 4,
-        "title": "Mouse",
+        "title": "Ноутбук Asus VivoBook X512FJ-EJ237",
         "price": 10,
-        "img": "https://placehold.it/200x150"
+        "img": "http://madelephants.ru/3.jpg"
   
       },
       {
         "id": 5,
-        "title": "Phones",
+        "title": "Ноутбук Asus ZenBook UX433FA-A5232R",
         "price": 25,
-        "img": "https://placehold.it/200x150"
+        "img": "http://madelephants.ru/4.jpg"
   
       },
       {
         "id": 6,
-        "title": "Router",
+        "title": "Ноутбук Dell Inspiron 15 (3584-2914)",
         "price": 30,
-        "img": "https://placehold.it/200x150"
+        "img": "http://madelephants.ru/6.jpg"
   
       },
       {
         "id": 7,
-        "title": "USB-camera",
+        "title": "Ноутбук Dell Inspiron 15 (3583-2921)",
         "price": 18,
-        "img": "https://placehold.it/200x150"
+        "img": "http://madelephants.ru/3.jpg"
   
       },
       {
         "id": 8,
-        "title": "Gamepad",
+        "title": "Ноутбук Asus X540BA-GQ097",
         "price": 24,
-        "img": "https://placehold.it/200x150"
+        "img": "http://madelephants.ru/4.jpg"
   
       }
   ]
